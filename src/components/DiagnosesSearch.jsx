@@ -26,13 +26,13 @@ export default function DiagnosesSearch({ onSearch }) {
           placeholder="ICD-Code"
           value={code}
           onChange={e => setCode(e.target.value)}
-          className="input input-info flex-1"
+          className="input input-bordered border-white flex-1"
         />
         <input
           placeholder="Diagnose-Name"
           value={name}
           onChange={e => setName(e.target.value)}
-          className="input input-secondary flex-1"
+          className="input input-bordered border-white flex-1"
         />
         <div className="flex gap-2">
           <button type="submit" className="btn btn-outline btn-primary">Suchen</button>
